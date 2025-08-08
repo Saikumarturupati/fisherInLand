@@ -13,7 +13,7 @@ function App() {
       children: [
         {
           path: "/",
-          element: <div className="home-container">welcome to Home page!</div>,
+          element: <div className="home-container">Welcome to Home page!</div>,
         },
         {
           path: "about",
