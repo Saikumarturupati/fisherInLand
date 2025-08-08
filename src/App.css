@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0.5px;
+  /* box-sizing: border-box; */
+}
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  height: 5vh;
+  align-items: center;
+  padding: 20px;
+  font-style: oblique;
+  color: indianred;
+}
+.hearder-container > button {
+  cursor: pointer;
+  height: 40px;
+}
+.main_container {
+  background-color: aqua;
+  height: 100vh;
+  width: 85%;
+}
+.side_container {
+  background-color: bisque;
+  height: 100vh;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+.side_container > .home {
+  cursor: pointer;
+  height: 40px;
+  border-radius: 20px;
+}
+.side_container > .about {
+  cursor: pointer;
+  height: 40px;
+  border-radius: 20px;
+}
+.side_container > .contact {
+  cursor: pointer;
+  height: 40px;
+  border-radius: 20px;
+}
+.app_container {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+.main_room {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.home-container {
+}
